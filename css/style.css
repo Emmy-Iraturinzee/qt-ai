@@ -556,7 +556,7 @@ h6,
 /* video */
 #bg-video {
     min-width: 100%;
-    min-height: 100vh;
+    min-height: 99.9vh;
     max-width: 100%;
     max-height: 100vh;
     object-fit: cover;
@@ -586,7 +586,7 @@ h6,
     }
 
     .navbar-toggler{
-       margin-top: -70px !important;
+       margin-top: -66px !important;
     }
     .logo{
         margin-top: 5px !important;
