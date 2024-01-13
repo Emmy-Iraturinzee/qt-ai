@@ -1,12 +1,14 @@
 /********** Template CSS **********/
 :root {
-    --primary: #091d35;
+    --primary: #043a7b;
     --secondary: #031d26;
     --light: #F4F7FE;
-    --dark: #14183E;
+    --dark: #031115;
 }
 
-
+body{
+    background-color: #031115;
+}
 /*** Spinner ***/
 #spinner {
     opacity: 0;
@@ -50,6 +52,9 @@ h6,
 .btn {
     font-weight: 500;
     transition: .5s;
+    background-color: #054163;
+    color: white;
+   
 }
 
 .btn-square {
@@ -209,7 +214,7 @@ h6,
     overflow: hidden;
 }
 
-.about-img::after {
+/* .about-img::after {
     position: absolute;
     content: "";
     width: 100%;
@@ -218,7 +223,7 @@ h6,
     left: 0;
     background: url(../img/bg-about-img.png) top left no-repeat;
     background-size: contain;
-}
+} */
 
 
 /*** Service ***/
@@ -546,10 +551,10 @@ h6,
     min-width: 100%;
     min-height: 100vh;
     max-width: 100%;
-    max-height: 110vh;
+    max-height: 100vh;
     object-fit: cover;
     z-index: -1;
-    margin-top: -80px;
+    margin-top: -75px;
     transform: rotateY(180deg);
     -webkit-transform:rotateY(180deg); /* Safari and Chrome */
     -moz-transform:rotateY(180deg); /* Firefox */
@@ -573,7 +578,22 @@ h6,
         width: 100%;
     }
 
+    .logo{
+        width:20%;
+        margin-top: 100px;
+    }
+    
+}
+@media (max-width: 800px) {
+    .video-overlay {
+        width: 100%;
+    }
 
+  h1 .logo{
+        width:20%;
+        align-items: center;
+    }
+    
 }
 
 .logo{
