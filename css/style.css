@@ -1,6 +1,6 @@
 /********** Template CSS **********/
 :root {
-    --primary: #043a7b;
+    --primary: #054163;
     --secondary: #031d26;
     --light: #F4F7FE;
     --dark: #031115;
@@ -87,6 +87,8 @@ h6,
     font-weight: normal;
     border-radius: 50px;
 }
+
+/* ***Img background */
 
 
 /*** Navbar ***/
@@ -580,12 +582,15 @@ h6,
 }
 @media (max-width: 700px) {
     .video-overlay {
-        width: 100%;
+        width: 200%;
     }
 
     .navbar-toggler{
        margin-top: -70px !important;
     }
+    .logo{
+        margin-top: 5px !important;
+     }
     
 }
 @media (max-width: 800px) {
@@ -609,7 +614,7 @@ h6,
 
 
 #marquee__container {
-    background-color: #fff;
+    background-color: #0c0707;
     min-height: 20vh;
     display: flex;
     justify-content: center;
@@ -629,7 +634,7 @@ h6,
     }
     
     .marquee {
-        background-color: #fff;
+        background-color: #ffffff;
         color: lightgrey;
         width: 80vw;
         overflow: hidden;
@@ -770,6 +775,8 @@ h6,
         background: #05c9ff;
         z-index: 10000;
       }
+      
+      /* text animation */
       
 
     
