@@ -76,3 +76,9 @@ document.body.scrollTop || document.documentElement.scrollTop;
 scrollProgress.style.width = `${(scrollTop / height) * 100}%`;
 });
 
+
+// cursor
+
+
+
+

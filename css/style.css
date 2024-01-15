@@ -47,7 +47,7 @@ h6,
     font-weight: 500 !important;
 }
 .about-h1{
-    color:#054163;
+    color:#034870;
 }
 .about-h1-header{
     color:#054163;
@@ -448,10 +448,10 @@ h6,
     position: relative;
     display: inline-block;
     margin-right: 10px;
-    width: 15px;
-    height: 15px;
+    width: 13px;
+    height: 13px;
     background: #FFFFFF;
-    border: 1px solid var(--primary);
+    border: 1px solid rgba(49, 154, 215, 0.234) ;
     border-radius: 15px;
     transition: .5s;
 }
@@ -602,6 +602,19 @@ h6,
         width:20%;
         align-items: center;
     }
+    #bg-video{
+        min-width: 100%;
+        min-height: 99.9vh;
+        max-width: 100%;
+        max-height: 100vh;
+        object-fit: cover;
+        z-index: -1;
+        margin-top: -75px;
+        transform: rotateY(-180deg);
+        -webkit-transform:rotateY(-180deg); /* Safari and Chrome */
+        -moz-transform:rotateY(-180deg); /* Firefox */
+
+    }
     
 }
 
@@ -614,7 +627,7 @@ h6,
 
 
 #marquee__container {
-    background-color: #0c0707;
+    background-color: #ffffff;
     min-height: 20vh;
     display: flex;
     justify-content: center;
@@ -776,7 +789,13 @@ h6,
         z-index: 10000;
       }
       
-      /* text animation */
+      /* contact us Form dark*/
       
+      .contact-container{
+        background-color: #054163;
+        z-index: 100;
+      }
 
+    /* cursor */
+    
     
