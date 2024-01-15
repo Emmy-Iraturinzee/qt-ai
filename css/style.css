@@ -797,5 +797,33 @@ h6,
       }
 
     /* cursor */
+    /* typing effects */
+    .read-width {
+        max-width: 830px;
+      }
+      
+      #typewriter {
+        display: inline-block;
+       
+       
+        color: #ffffff;
+       
+        letter-spacing: .2rem;
+      }
+      
+      .type-text {
+        word-wrap: wrap;
+       
+        line-height: 1.25;
+      }
+      
+      #sentence {
+        animation: blink-caret 0.7s step-end infinite;
+        border-right: .15em solid #FFB52B;
+      }
+      
+      @keyframes blink-caret {
+        50% { border-color: transparent }
+      }
     
     
