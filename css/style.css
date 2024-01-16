@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap');
+
+
 /********** Template CSS **********/
 :root {
     --primary: #054163;
@@ -59,8 +62,34 @@ h6,
     transition: .5s;
     background-color: #054163;
     color: white;
+    border-color: #054163 ;
    
 }
+.hero2{
+ 
+   color: white;
+   border-color: #065685 ;
+   background-color: transparent;
+   transition: .5s;
+   
+}
+.hero3 {
+   
+    transition: .5s;
+   
+    color: white;
+    border-color: #1b8fd2 ;
+   
+}
+.hero3:hover {
+   
+    transition: .5s;
+   background-color: #0a69a0;
+    color: rgb(255, 255, 255);
+   
+   
+}
+
 
 .btn-square {
     width: 38px;
@@ -805,16 +834,21 @@ h6,
       #typewriter {
         display: inline-block;
         font-size: 15px;
+        font-weight: lighter !important;
+       
        
         color: #ffffff;
       
         letter-spacing: 1px;
       }
       
-      .type-text {
+    p {
         word-wrap: wrap;
        
         line-height: 1.25;
+        font-family: "Titillium Web", sans-serif;
+        font-weight: 300;
+        font-style: normal;
       }
       
       #sentence {
@@ -826,4 +860,18 @@ h6,
         50% { border-color: transparent }
       }
     
+    /* animated tex 2 */
     
+      #text {
+        max-width: 500px;
+        text-align: left;
+        width: 100%;
+        color: rgb(255, 255, 255);
+        font-family: "Titillium Web", sans-serif;
+        font-weight: 250;
+        font-style: normal;
+        font-size: 18px;
+      }
+      #text.typing span:last-child {
+        background-color: white;
+      }
